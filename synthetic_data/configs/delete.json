@@ -1,0 +1,17 @@
+{
+    "name": "delete",
+    "vocab_size": 10000,
+    "should_delete_ratio": 0.5,
+    "sequence_length_min": 256,
+    "sequence_length_max": 1024,
+    "seq_to_delete_length_min": 10,
+    "seq_to_delete_length_max": 100,
+    "split": {
+        "shuffle_dataset": true,
+        "shuffle_domain_order": false,
+        "shuffle_domain_sequence": true,
+        "split_ratio": [0.8, 0.1, 0.1]
+      },
+    "promoter_length_range":  [4, 13]
+
+}
